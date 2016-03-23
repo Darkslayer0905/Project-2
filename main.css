@@ -61,22 +61,34 @@ padding-left: 50px;
 padding-top: 170px;
 padding-left: 700px;
 width: 40%;
+  opacity: 0.8;
+}
+
+#sketch2{
+  position:relative;
+padding-top: 170px;
+padding-left: 500px;
+width: 40%;
+  opacity: 0.6;
 }
 
 #calendarimg{
   z-index: 1;
+  padding-top: 170px;
+  padding-left: 500px;
+  opacity: 0.8;
 }
 
 p{
-  opacity: 0.8;
+  opacity: 0.6;
   text-indent: 2em;;
-  color:  #ffcc00;
-  background-color: #292E37;
+  color: black;
+  background-color:
   border-left:3px;
   Font-size: 20px;
   width: 70%;
   margin-left: 100;
   padding:5px;
-  border:2px solid  #0f0f99;
-  background-color: #292E37;
+  border:2px solid black;
+  background-color: white;
 }
