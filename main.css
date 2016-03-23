@@ -2,9 +2,29 @@
 
 .Link{
   font-size: 15px;
+  background-color: white;
+
 }
 
 .Menu{
   position: fixed;
   z-index: 1;
+}
+
+#about{
+  position: relative;
+  top: 5px
+  left: 20px;
+}
+
+#calendar{
+  position: relative;
+  top: 5px
+  left: 20px;
+}
+
+#admissions{
+  position: relative;
+  top: 5px
+  left: 20px;
 }
