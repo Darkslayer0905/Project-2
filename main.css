@@ -5,11 +5,6 @@
   background-color: white;
 }
 
-.Background{
-  max-width: 1600px;
-  max-height: 900px;
-}
-
 .Menu{
   position: fixed;
   z-index: 1;
