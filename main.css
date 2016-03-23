@@ -1,5 +1,28 @@
 
 
-.Class{
+.Link{
   font-size: 15px;
+}
+
+.Menu{
+  position: fixed;
+  z-index: 1;
+}
+
+#Main{
+  position: relative;
+  top: 5px
+  left: 20px;
+}
+
+#Choice1{
+  position: relative;
+  top: 5px
+  left: 20px;
+}
+
+#Choice2{
+  position: relative;
+  top: 5px
+  left: 20px;
 }
