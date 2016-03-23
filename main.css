@@ -3,7 +3,11 @@
 .Link{
   font-size: 15px;
   background-color: white;
+}
 
+.Background{
+  max-width: 1600px;
+  max-height: 900px;
 }
 
 .Menu{
