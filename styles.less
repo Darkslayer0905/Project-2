@@ -2,89 +2,12 @@
 
 
 //color variables
-@DarkSide: darken(red, 25);
-@LightSide: lighten(blue, 9);
-@DarkSide-mute: desaturate(@DarkSide, 65);
-@FontSide: lighten(@DarkSide, 70);
-
-//type variables
-@regular: 1em;
-@large: @regular * 2;
-@xlarge: @large * 2.2;
-@small: @regular / .5;
-
-
+@brickred: darken(red, 25);
+@skyblue: lighten(blue, 9);
+@forestgreen: darken(green, 10);
+@daisyyellow: lighten(yellow, 10);
 
 body{
-  background-color: @DarkSide-mute;
-  color: @FontSide;
-  font-size: @regular;
-  font-family: 'Calligraffitti', cursive;
-}
-
-.page-container{
-    width: 90%;
-    margin: 0 auto;
-
-}
-
-
-h1{
-  margin-bottom: 20px;
-  background-color: @LightSide;
-  border-top:15px solid @DarkSide;
-  color: white;
-  font-size: @large;
-  font-family: 'Niconne', cursive;
-  + h2 {
-    margin-top: -20px;
-  }
-}
-
-h2{
-  background-color: @DarkSide;
-  font-size: @large;
-  font-weight: bold;
-  + p {
-    margin-top: 36;
-  }
-}
-
-
-img{
-  float: left;
-  width: 30%;
-  margin: 20px 20px 20px 0px;
-
-}
-
-P{
-  img{
-    float: right;
-    width: 100px;
-    margin-left: 20px;
-    margin-right: 0px;
-  }
-}
-
-//breakpoints
-@media screen and (min-width:790px) {
-
-  body{
-     font-size: 1.1em;
-     background-color: @LightSide;
-  }
-
-  h1{
-    font-size: @xlarge;
-  }
-
-  .page-container{
-    width: 80%;
-  }
-}
-
-
-@media screen and (min-width:900px){
+  background-color: @daisyyellow;
 
 }
