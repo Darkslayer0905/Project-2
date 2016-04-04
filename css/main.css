@@ -1,5 +1,9 @@
 body {
   background-color: #ffff33;
+  font-size: 1em;
+}
+div {
+  font-size: 2em;
 }
 @media screen and (min-width: 790px) {
   body {
@@ -7,7 +11,7 @@ body {
     background-color: #2e2eff;
   }
   h1 {
-    font-size: 4.4em;
+    font-size: 2em;
   }
   .page-container {
     width: 80%;
@@ -17,5 +21,8 @@ body {
   body {
     font-size: 1.1em;
     background-color: #800000;
+  }
+  h1 {
+    font-size: 4.4em;
   }
 }
