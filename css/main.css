@@ -1,50 +1,52 @@
-.Link {
-  font-size: 15px;
-  background-color: white;
-}
-.background {
-  position: absolute;
-  z-index: 1;
-}
-.Menu {
-  position: fixed;
-  z-index: 2;
-}
-#about {
-  position: relative;
-  top: 5px
-  left: 20px;
-}
-#calendar {
-  position: relative;
-  top: 5px
-  left: 20px;
-}
-#admissions {
-  position: relative;
-  top: 5px
-  left: 20px;
-}
 body {
-  background-color: green;
+  background-color: #562929;
+  color: #ffe5e5;
+  font-size: 1em;
+  font-family: 'Calligraffitti', cursive;
 }
-@media screen and (min-width: 300px) {
+.page-container {
+  width: 90%;
+  margin: 0 auto;
+}
+h1 {
+  margin-bottom: 20px;
+  background-color: #2e2eff;
+  border-top: 15px solid #800000;
+  color: white;
+  font-size: 2em;
+  font-family: 'Niconne', cursive;
+}
+h1 + h2 {
+  margin-top: -20px;
+}
+h2 {
+  background-color: #800000;
+  font-size: 2em;
+  font-weight: bold;
+}
+h2 + p {
+  margin-top: 36;
+}
+img {
+  float: left;
+  width: 30%;
+  margin: 20px 20px 20px 0px;
+}
+P img {
+  float: right;
+  width: 100px;
+  margin-left: 20px;
+  margin-right: 0px;
+}
+@media screen and (min-width: 790px) {
   body {
-    background-color: red;
+    font-size: 1.1em;
+    background-color: #2e2eff;
   }
-}
-@media screen and (min-width: 540px) {
-  body {
-    background-color: yellow;
+  h1 {
+    font-size: 4.4em;
   }
-}
-@media screen and (min-height: 320px) {
-  div {
-    background-color: orange;
-  }
-}
-@media screen and (min-height: 540px) {
-  div {
-    background-color: purple;
+  .page-container {
+    width: 80%;
   }
 }
