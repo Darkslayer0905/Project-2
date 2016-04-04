@@ -1,14 +1,29 @@
 body {
-  background-color: #ffff33;
   font-size: 1em;
 }
 div {
   font-size: 2em;
 }
+.link {
+  background-color: #969696;
+}
+@media screen and (min-width: 300px) {
+  body {
+    background-size: 300px;
+  }
+  img {
+    max-width: 150px;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  .page-container {
+    width: 80%;
+  }
+}
 @media screen and (min-width: 790px) {
   body {
-    font-size: 1.1em;
-    background-color: #2e2eff;
+    background-size: 790px;
   }
   h1 {
     font-size: 2em;
@@ -19,8 +34,7 @@ div {
 }
 @media screen and (min-width: 900px) {
   body {
-    font-size: 1.1em;
-    background-color: #800000;
+    background-size: 900px;
   }
   h1 {
     font-size: 4.4em;

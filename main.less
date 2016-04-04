@@ -15,7 +15,6 @@
 
 
 body{
-  background-color: @daisyyellow;
   font-size: @regular;
 
 }
@@ -24,12 +23,39 @@ div{
   font-size: @large;
 }
 
+.link{
+  background-color: greyscale(@skyblue);
+}
+
+
 //breakpoints
+
+@media screen and (min-width:300px) {
+
+  body{
+  background-size: 300px;
+  }
+
+img{
+   max-width: 150px   
+}
+
+  h1{
+    font-size: @large;
+  }
+
+  .page-container{
+    width: 80%;
+  }
+}
+
+
+
+
 @media screen and (min-width:790px) {
 
   body{
-     font-size: 1.1em;
-     background-color: @skyblue;
+  background-size: 790px;
   }
 
 
@@ -46,8 +72,7 @@ div{
 @media screen and (min-width:900px){
 
   body{
-     font-size: 1.1em;
-     background-color: @brickred;
+  background-size: 900px;
   }
 
   h1{
