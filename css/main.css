@@ -1,3 +1,21 @@
 body {
   background-color: #ffff33;
 }
+@media screen and (min-width: 790px) {
+  body {
+    font-size: 1.1em;
+    background-color: #2e2eff;
+  }
+  h1 {
+    font-size: 4.4em;
+  }
+  .page-container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 900px) {
+  body {
+    font-size: 1.1em;
+    background-color: #800000;
+  }
+}
