@@ -27,17 +27,17 @@ div{
   background-color: greyscale(@skyblue);
 }
 
+h1{
+  align-self: center;
+}
 
-//breakpoints
+//width breakpoints
 
-@media screen and (min-width:300px) {
+@media screen and (min-width:500px) {
 
-  body{
-  background-size: 300px;
-  }
 
 img{
-   max-width: 150px   
+   max-width: 250px
 }
 
   h1{
@@ -52,10 +52,12 @@ img{
 
 
 
-@media screen and (min-width:790px) {
+@media screen and (min-width:700px) {
 
-  body{
-  background-size: 790px;
+
+
+  img{
+     max-width: 450px
   }
 
 
@@ -71,13 +73,79 @@ img{
 
 @media screen and (min-width:900px){
 
-  body{
-  background-size: 900px;
+
+
+  img{
+     max-width: 650px
   }
+
 
   h1{
     font-size: @xlarge;
   }
 
+}
+
+
+//height breakpoints
+
+@media screen and (min-height:750px) {
+
+  body{
+  background: 500px;
+  }
+
+
+  .page-container{
+    width: 80%;
+  }
+}
+
+
+
+
+@media screen and (min-height:1050px) {
+
+  body{
+  background-size: 700px;
+  }
+
+
+
+
+  .page-container{
+    width: 80%;
+  }
+}
+
+
+@media screen and (min-height:1200px){
+
+  body{
+  background-size: 900px;
+  }
+
+
+
+
+
+
+    .page-container{
+      width: 80%;
+    }
+
+}
+
+@media screen and (min-height:1600px){
+
+  body{
+  background-size: 1600px;
+  }
+
+
+
+    .page-container{
+      width: 80%;
+    }
 
 }
