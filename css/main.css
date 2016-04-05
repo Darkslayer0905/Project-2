@@ -15,7 +15,7 @@ h1 {
     max-width: 250px;
   }
   h1 {
-    font-size: 2em;
+    font-size: 1em;
   }
   .page-container {
     width: 80%;
@@ -39,36 +39,27 @@ h1 {
   h1 {
     font-size: 4.4em;
   }
+  .page-container {
+    width: 80%;
+  }
 }
 @media screen and (min-height: 750px) {
   body {
     background: 500px;
-  }
-  .page-container {
-    width: 80%;
   }
 }
 @media screen and (min-height: 1050px) {
   body {
     background-size: 700px;
   }
-  .page-container {
-    width: 80%;
-  }
 }
 @media screen and (min-height: 1200px) {
   body {
     background-size: 900px;
   }
-  .page-container {
-    width: 80%;
-  }
 }
 @media screen and (min-height: 1600px) {
   body {
     background-size: 1600px;
-  }
-  .page-container {
-    width: 80%;
   }
 }
