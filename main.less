@@ -14,11 +14,6 @@
 @small: @regular / .5;
 
 
-body{
-  font-size: @regular;
-
-}
-
 div{
   font-size: @large;
 }
@@ -32,6 +27,22 @@ h1{
 }
 
 //width breakpoints
+@media screen and (min-width:300px) {
+
+  img{
+     max-width: 250px
+  }
+
+    h1{
+      font-size: @small;
+    }
+
+    .page-container{
+      width: 80%;
+    }
+
+
+}
 
 @media screen and (min-width:500px) {
 
@@ -39,10 +50,6 @@ h1{
 img{
    max-width: 250px
 }
-
-  h1{
-    font-size: @regular;
-  }
 
   .page-container{
     width: 80%;
@@ -93,11 +100,31 @@ img{
 
 
 //height breakpoints
+@media screen and (min-height:150px) {
+
+  body{
+  background-size: 100px;
+  }
+
+
+
+}
+
+@media screen and (min-height:500px) {
+
+  body{
+  background-size: 350px;
+  }
+
+
+
+}
+
 
 @media screen and (min-height:750px) {
 
   body{
-  background: 500px;
+  background-size: 500px;
   }
 
 
