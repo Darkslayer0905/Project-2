@@ -14,13 +14,23 @@
 @small: @regular / .5;
 
 
-IMG.displayed {
+img.displayed {
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto;
+    margin-top: 150px;
+  }
 
+h1{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  opacity: .8;
+}
 
-
+img{
+  max-width: 150px;
+}
 
 
 div{
@@ -29,16 +39,30 @@ div{
 
 .link{
   background-color: greyscale(@skyblue);
+  opacity: .8;
 }
 
 h1{
   align-self: center;
 }
 
+
+p{
+  background-color: white;
+  opacity: .8;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 //width breakpoints
 @media screen and (min-width:300px) {
 
   img{
+     max-width: 170px
+  }
+
+
+  img#calendarimg{
      max-width: 250px
   }
 
@@ -60,6 +84,11 @@ img{
    max-width: 250px
 }
 
+img#calendarimg{
+   max-width: 450px
+}
+
+
   .page-container{
     width: 80%;
   }
@@ -74,6 +103,11 @@ img{
 
   img{
      max-width: 450px
+  }
+
+
+  img#calendarimg{
+     max-width: 600px
   }
 
 
@@ -96,6 +130,11 @@ img{
   }
 
 
+  img#calendarimg{
+     max-width: 750px
+  }
+
+
   h1{
     font-size: @xlarge;
   }
@@ -106,6 +145,35 @@ img{
 
 
 }
+
+
+@media screen and (min-width:1200px){
+
+
+
+  img{
+     max-width: 850px
+  }
+
+
+  img#calendarimg{
+     max-width: 900px
+  }
+
+
+  h1{
+    font-size: @xlarge;
+  }
+
+  .page-container{
+    width: 80%;
+  }
+
+
+}
+
+
+
 
 
 //height breakpoints
