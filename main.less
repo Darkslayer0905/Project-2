@@ -25,6 +25,7 @@ h1{
   position:fixed;
   z-index: 1;
   padding-left: 25%;
+  padding-right: 25%;
   margin-left: auto;
   margin-right: auto;
   background-color: silver;
@@ -34,7 +35,8 @@ h1{
 
 
 button{
-  font-size: @small;
+    font-size: @regular;
+
 }
 
 
@@ -47,6 +49,7 @@ button:hover {
 button:active {
     color: yellow;
   background-color: red;
+  font-size: @small;
 }
 
 img{
@@ -66,13 +69,13 @@ img#notice{
 }
 
 div{
-  font-size: @large;
   position:relative;
 }
 
 
 .Menu{
   position: fixed;
+  top: 5;
   z-index: 1;
 }
 
@@ -90,15 +93,15 @@ div{
 
 }
 
+p#missionstatement{
+  margin-top: 30%;
+}
 
 .link{
   background-color: greyscale(@skyblue);
   opacity: .8;
 }
 
-h1{
-  align-self: center;
-}
 
 
 p{
@@ -116,7 +119,7 @@ p{
   }
 
   button{
-    font-size: @small;
+    font-size: @regular;
   }
 
     h1{
@@ -171,8 +174,15 @@ img#calendarimg{
 
 
   h1{
-    font-size: @large;
+    font-size: @xlarge;
   }
+
+
+  button{
+      font-size: @large;
+
+  }
+
 
   .page-container{
     width: 80%;

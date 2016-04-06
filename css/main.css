@@ -8,13 +8,14 @@ h1 {
   position: fixed;
   z-index: 1;
   padding-left: 25%;
+  padding-right: 25%;
   margin-left: auto;
   margin-right: auto;
   background-color: silver;
   opacity: .8;
 }
 button {
-  font-size: 2em;
+  font-size: 1em;
 }
 button:hover {
   opacity: 0.7;
@@ -24,6 +25,7 @@ button:hover {
 button:active {
   color: yellow;
   background-color: red;
+  font-size: 2em;
 }
 img {
   max-width: 150px;
@@ -35,11 +37,11 @@ img#notice {
   margin-top: 20%;
 }
 div {
-  font-size: 2em;
   position: relative;
 }
 .Menu {
   position: fixed;
+  top: 5;
   z-index: 1;
 }
 #about {
@@ -51,12 +53,12 @@ div {
 #admissions {
   position: relative;
 }
+p#missionstatement {
+  margin-top: 30%;
+}
 .link {
   background-color: #969696;
   opacity: .8;
-}
-h1 {
-  align-self: center;
 }
 p {
   background-color: white;
@@ -69,7 +71,7 @@ p {
     max-width: 170px;
   }
   button {
-    font-size: 2em;
+    font-size: 1em;
   }
   h1 {
     font-size: 2em;
@@ -100,6 +102,9 @@ p {
     max-width: 600px;
   }
   h1 {
+    font-size: 4.4em;
+  }
+  button {
     font-size: 2em;
   }
   .page-container {
