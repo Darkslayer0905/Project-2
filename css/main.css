@@ -25,7 +25,7 @@ button:hover {
 button:active {
   color: yellow;
   background-color: red;
-  font-size: 2em;
+  font-size: 0.66666667em;
 }
 img {
   max-width: 150px;
@@ -55,6 +55,7 @@ div {
 }
 p#missionstatement {
   margin-top: 30%;
+  font-size: 0.66666667em;
 }
 .link {
   background-color: #969696;
@@ -74,7 +75,7 @@ p {
     font-size: 1em;
   }
   h1 {
-    font-size: 2em;
+    font-size: 1em;
   }
   .page-container {
     width: 80%;
